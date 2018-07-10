@@ -86,7 +86,7 @@ h2{
     width: 960px;
     margin: auto;
     padding: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 0px;
 }
 
 /* Footer */
@@ -214,10 +214,25 @@ form{
 
 
 @media only screen and (max-width:640px){
+    .logo h1{
+        width: 100%;
+
+    }
+    .kell{
+        width:100%;
+    }
+
+    .navbar{
+        width: 100%;
+        clear: both;
+        display: block;
+        text-align: center;
+    }
+
     html, body {
         height: 100%;
       }
-      .outer {
+      .container {
         position: relative;
         height: 100%;
         width: 100%;
@@ -230,29 +245,56 @@ form{
         /* offset margin by 1/2 height of addtl elements */
         margin-top: 23px;
       }
-      .inner {
+      .wrapper {
     
         width: 300px;
-        height: 100px;
+        margin-bottom: 20%;
+        margin-top: -6%;
+        
+        
       }
       p {
         text-align: center;
         margin: 16px 0 0;
-        height: 30px;
+        
         /* 30 + 16 = 46 ==> 46 / 2 = 23 (offset) */
       }
+
+        form{
+            margin: auto;
+        }
+
+        .name{
+            width: 300px;
+        }
+        .email{
+            width: 300px;
+        }
+        textarea{
+            width:300px;
+        }
 }
 
-@media only screen and (max-width:768px){
-    
-    Body{
-        
+@media only screen and (max-width:768px) and (min-width:640px){
+    .wrapper{
+        width:85%;
+        margin-bottom: 13%;
     }
 }
 
 
-@media only screen and (max-width:980px){
-    Body{
+@media only screen and (max-width:980px) and (min-width:768px){
+    .navbar{
+        margin-right: 20%;
+    }
+
+    .wrapper2{
+        width: 60%;
+        height: 50%;
+        float: left;
+        margin-left: 10px;
+        margin-bottom: 13%;
         
     }
+
 }
