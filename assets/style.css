@@ -220,6 +220,8 @@ form{
     }
     .kell{
         width:100%;
+        height: 320px;
+
     }
 
     .navbar{
@@ -249,7 +251,7 @@ form{
     
         width: 300px;
         margin-bottom: 20%;
-        margin-top: -6%;
+        margin-top: -4%;
         
         
       }
@@ -265,25 +267,81 @@ form{
         }
 
         .name{
-            width: 300px;
+            width: 85%;
         }
         .email{
-            width: 300px;
+            width: 85%;
         }
         textarea{
-            width:300px;
+            width:85%;
+        }
+        .img1{
+            width:100%;
+            margin-bottom: 10px;
+        }
+        .commun{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .banner{
+            width:100%;
+            margin-bottom: 10px;
+        }
+        .Bulls{
+            width:100%;
+            margin-bottom: 10px;
+        }
+        .img2{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .NBA{
+            width:100%;
+            margin-bottom: 10px;
+        }
+        .img3{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .NFL{
+            width:100%;
+            margin-bottom: 10px;
+        }
+        .img4{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .Tech{
+            width:100%;
         }
 }
 
-@media only screen and (max-width:768px) and (min-width:640px){
+
+@media only screen and (max-width:768px) and (min-width:641px){
     .wrapper{
         width:85%;
         margin-bottom: 13%;
     }
+    .name{
+        width: 90%;
+    }
+    .email{
+        width:90%;
+    }
+    textarea{
+        width:90%;
+    }
+    .img2{
+        margin-right: 20%
+        
+    }
+    .img4{
+        margin-right: 20%;
+    }
 }
 
 
-@media only screen and (max-width:980px) and (min-width:768px){
+@media only screen and (max-width:980px) and (min-width:769px){
     .navbar{
         margin-right: 20%;
     }
@@ -296,5 +354,21 @@ form{
         margin-bottom: 13%;
         
     }
+    .name{
+        width:90%;
 
+    }
+    .email{
+        width: 90%;
+    }
+    textarea{
+        width: 90%;
+    }
+    .img2{
+        margin-right: 20%
+        
+    }
+    .img4{
+        margin-right: 20%;
+    }
 }
